@@ -1,0 +1,241 @@
+last_version: 2.22.5
+FkPI:
+  RulesManager:
+    Rules:
+      DeepPause:
+        value: true
+      RespawnAtHome:
+        value: false
+      VerticalLimit:
+        value: 40
+      ChargedCreepers:
+        value: 10050001
+      NetherCap:
+        value: 3
+      TntJump:
+        value: false
+      EternalDay:
+        value: false
+      DoPauseAfterDay:
+        value: false
+      PlaceBlockInCave:
+        value: false
+        MinimumBlocs: 3
+      ChestLimit:
+        value: 40
+      DeathLimit:
+        value: 0
+      GlobalChatPrefix:
+        value: '!'
+      AllowedBlocks:
+        value:
+        - TORCH
+        - REDSTONE_TORCH
+        - TNT
+        - OAK_SIGN
+        - SPRUCE_SIGN
+        - BIRCH_SIGN
+        - JUNGLE_SIGN
+        - ACACIA_SIGN
+        - DARK_OAK_SIGN
+        - CRIMSON_SIGN
+        - WARPED_SIGN
+        - WALL_TORCH
+        - FIRE
+        - OAK_WALL_SIGN
+        - SPRUCE_WALL_SIGN
+        - BIRCH_WALL_SIGN
+        - ACACIA_WALL_SIGN
+        - JUNGLE_WALL_SIGN
+        - DARK_OAK_WALL_SIGN
+        - REDSTONE_WALL_TORCH
+        - CRIMSON_WALL_SIGN
+        - WARPED_WALL_SIGN
+      DisabledPotions:
+        '0':
+          Type: TURTLE_MASTER
+          Extended: true
+          Upgraded: false
+        '1':
+          Type: SLOWNESS
+          Extended: false
+          Upgraded: true
+        '2':
+          Type: POISON
+          Extended: false
+          Upgraded: true
+        '3':
+          Type: STRENGTH
+          Extended: false
+          Upgraded: true
+        '4':
+          Type: FIRE_RESISTANCE
+          Extended: true
+          Upgraded: false
+        '5':
+          Type: INSTANT_DAMAGE
+          Extended: false
+          Upgraded: true
+        '6':
+          Type: REGEN
+          Extended: false
+          Upgraded: true
+        '7':
+          Type: TURTLE_MASTER
+          Extended: false
+          Upgraded: false
+        '8':
+          Type: SPEED
+          Extended: true
+          Upgraded: false
+        '9':
+          Type: TURTLE_MASTER
+          Extended: false
+          Upgraded: true
+        '10':
+          Type: INVISIBILITY
+          Extended: true
+          Upgraded: false
+        '11':
+          Type: STRENGTH
+          Extended: true
+          Upgraded: false
+        '12':
+          Type: JUMP
+          Extended: true
+          Upgraded: false
+        '13':
+          Type: SPEED
+          Extended: false
+          Upgraded: true
+        '14':
+          Type: SLOW_FALLING
+          Extended: true
+          Upgraded: false
+        '15':
+          Type: WATER_BREATHING
+          Extended: true
+          Upgraded: false
+        '16':
+          Type: SLOW_FALLING
+          Extended: false
+          Upgraded: false
+        '17':
+          Type: JUMP
+          Extended: false
+          Upgraded: true
+        '18':
+          Type: INSTANT_HEAL
+          Extended: false
+          Upgraded: true
+        '19':
+          Type: WEAKNESS
+          Extended: true
+          Upgraded: false
+      EnderpearlAssault:
+        value: true
+      EndCap:
+        value: 1
+      FriendlyFire:
+        value: false
+      PvpCap:
+        value: 2
+      BucketAssault:
+        value: false
+      CaptureRate:
+        value: 100
+      DayDuration:
+        value: 24000
+      TntCap:
+        value: 3
+      HealthBelowName:
+        value: false
+  TeamManager:
+    Fox:
+      Members: []
+      Color: '#ffaa00'
+      Base:
+        Center:
+          World: world
+          X: -205
+          Y: 103
+          Z: 168
+        Material: COBBLESTONE
+        Radius: 15
+        ChestsRoom: {}
+    Racoon:
+      Members: []
+      Color: '#ff5555'
+      Base:
+        Center:
+          World: world
+          X: 337
+          Y: 103
+          Z: 206
+        Material: COBBLESTONE
+        Radius: 15
+        ChestsRoom: {}
+    Weasel:
+      Members: []
+      Color: '#00aa00'
+      Base:
+        Center:
+          World: world
+          X: 310
+          Y: 103
+          Z: -105
+        Material: COBBLESTONE
+        Radius: 15
+        ChestsRoom: {}
+    Badger:
+      Members: []
+      Color: '#aaaaaa'
+      Base:
+        Center:
+          World: world
+          X: -110
+          Y: 103
+          Z: -110
+        Material: COBBLESTONE
+        Radius: 15
+        ChestsRoom: {}
+    nametag-integration:
+      use-main-scoreboard: false
+  LockedChestsManager: {}
+  ChestsRoomsManager:
+    CaptureTime: 60
+    Offset: 2
+    Enabled: true
+Game:
+  State: BEFORE_STARTING
+  Day: 0
+  Time: 23990
+PlayerManager:
+  Players:
+    djovn:
+      Kills: 0
+      Deaths: 0
+      KnowsSbEdit: false
+StarterInventoryManager:
+  inventory:
+    '0':
+      ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: STONE_SWORD
+    '1':
+      ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: STONE_PICKAXE
+    '2':
+      ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: STONE_SHOVEL
+    '3':
+      ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: STONE_AXE
+    '8':
+      ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: COOKED_BEEF
+      amount: 64
