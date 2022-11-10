@@ -2,31 +2,101 @@ last_version: 2.22.5
 FkPI:
   RulesManager:
     Rules:
-      DeepPause:
-        value: true
-      RespawnAtHome:
+      EnderpearlAssault:
         value: false
-      VerticalLimit:
-        value: 40
-      ChargedCreepers:
-        value: 10050001
-      NetherCap:
-        value: 3
+      HealthBelowName:
+        value: false
+      FriendlyFire:
+        value: false
+      RespawnAtHome:
+        value: true
       TntJump:
         value: false
-      EternalDay:
+      BucketAssault:
         value: false
-      DoPauseAfterDay:
-        value: false
-      PlaceBlockInCave:
-        value: false
-        MinimumBlocs: 3
-      ChestLimit:
-        value: 40
       DeathLimit:
         value: 0
-      GlobalChatPrefix:
-        value: '!'
+      CaptureRate:
+        value: 100
+      EndCap:
+        value: 4
+      DisabledPotions:
+        '0':
+          Type: TURTLE_MASTER
+          Extended: true
+          Upgraded: false
+        '1':
+          Type: POISON
+          Extended: false
+          Upgraded: true
+        '2':
+          Type: INSTANT_HEAL
+          Extended: false
+          Upgraded: true
+        '3':
+          Type: WATER_BREATHING
+          Extended: true
+          Upgraded: false
+        '4':
+          Type: INSTANT_DAMAGE
+          Extended: false
+          Upgraded: true
+        '5':
+          Type: TURTLE_MASTER
+          Extended: false
+          Upgraded: true
+        '6':
+          Type: INVISIBILITY
+          Extended: true
+          Upgraded: false
+        '7':
+          Type: SLOW_FALLING
+          Extended: true
+          Upgraded: false
+        '8':
+          Type: REGEN
+          Extended: false
+          Upgraded: true
+        '9':
+          Type: SPEED
+          Extended: true
+          Upgraded: false
+        '10':
+          Type: TURTLE_MASTER
+          Extended: false
+          Upgraded: false
+        '11':
+          Type: JUMP
+          Extended: true
+          Upgraded: false
+        '12':
+          Type: SPEED
+          Extended: false
+          Upgraded: true
+        '13':
+          Type: STRENGTH
+          Extended: true
+          Upgraded: false
+        '14':
+          Type: FIRE_RESISTANCE
+          Extended: true
+          Upgraded: false
+        '15':
+          Type: STRENGTH
+          Extended: false
+          Upgraded: true
+        '16':
+          Type: SLOW_FALLING
+          Extended: false
+          Upgraded: false
+        '17':
+          Type: WEAKNESS
+          Extended: true
+          Upgraded: false
+        '18':
+          Type: SLOWNESS
+          Extended: false
+          Upgraded: true
       AllowedBlocks:
         value:
         - TORCH
@@ -51,105 +121,31 @@ FkPI:
         - REDSTONE_WALL_TORCH
         - CRIMSON_WALL_SIGN
         - WARPED_WALL_SIGN
-      DisabledPotions:
-        '0':
-          Type: TURTLE_MASTER
-          Extended: true
-          Upgraded: false
-        '1':
-          Type: SLOWNESS
-          Extended: false
-          Upgraded: true
-        '2':
-          Type: POISON
-          Extended: false
-          Upgraded: true
-        '3':
-          Type: STRENGTH
-          Extended: false
-          Upgraded: true
-        '4':
-          Type: FIRE_RESISTANCE
-          Extended: true
-          Upgraded: false
-        '5':
-          Type: INSTANT_DAMAGE
-          Extended: false
-          Upgraded: true
-        '6':
-          Type: REGEN
-          Extended: false
-          Upgraded: true
-        '7':
-          Type: TURTLE_MASTER
-          Extended: false
-          Upgraded: false
-        '8':
-          Type: SPEED
-          Extended: true
-          Upgraded: false
-        '9':
-          Type: TURTLE_MASTER
-          Extended: false
-          Upgraded: true
-        '10':
-          Type: INVISIBILITY
-          Extended: true
-          Upgraded: false
-        '11':
-          Type: STRENGTH
-          Extended: true
-          Upgraded: false
-        '12':
-          Type: JUMP
-          Extended: true
-          Upgraded: false
-        '13':
-          Type: SPEED
-          Extended: false
-          Upgraded: true
-        '14':
-          Type: SLOW_FALLING
-          Extended: true
-          Upgraded: false
-        '15':
-          Type: WATER_BREATHING
-          Extended: true
-          Upgraded: false
-        '16':
-          Type: SLOW_FALLING
-          Extended: false
-          Upgraded: false
-        '17':
-          Type: JUMP
-          Extended: false
-          Upgraded: true
-        '18':
-          Type: INSTANT_HEAL
-          Extended: false
-          Upgraded: true
-        '19':
-          Type: WEAKNESS
-          Extended: true
-          Upgraded: false
-      EnderpearlAssault:
-        value: true
-      EndCap:
-        value: 1
-      FriendlyFire:
+      VerticalLimit:
+        value: 40
+      EternalDay:
         value: false
+      PlaceBlockInCave:
+        value: false
+        MinimumBlocs: 3
+      DoPauseAfterDay:
+        value: false
+      GlobalChatPrefix:
+        value: '!'
+      NetherCap:
+        value: 3
+      ChargedCreepers:
+        value: 100040001
       PvpCap:
         value: 2
-      BucketAssault:
-        value: false
-      CaptureRate:
-        value: 100
-      DayDuration:
-        value: 24000
+      DeepPause:
+        value: true
+      ChestLimit:
+        value: 40
       TntCap:
         value: 3
-      HealthBelowName:
-        value: false
+      DayDuration:
+        value: 24000
   TeamManager:
     Fox:
       Members: []

@@ -1,425 +1,275 @@
-[19:10:48] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:10:54] [Worker-Main-6/INFO]: Loaded 7 recipes
-[19:10:59] [Server thread/INFO]: Starting minecraft server version 1.18.2
-[19:10:59] [Server thread/INFO]: Loading properties
-[19:10:59] [Server thread/INFO]: This server is running CraftBukkit version 3498-Spigot-b081915-10ba1be (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT)
-[19:11:00] [Server thread/INFO]: Debug logging is disabled
-[19:11:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:11:00] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:11:00] [Server thread/INFO]: Default game type: SURVIVAL
-[19:11:00] [Server thread/INFO]: Generating keypair
-[19:11:00] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:11:01] [Server thread/INFO]: Using default channel type
-[19:11:02] [Server thread/INFO]: [FK] Loading FallenKingdom v2.22.5
-[19:11:02] [Server thread/INFO]: Preparing level "world"
-[19:11:04] [Server thread/INFO]: -------- World Settings For [world] --------
-[19:11:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[19:11:04] [Server thread/INFO]: Item Despawn Rate: 6000
-[19:11:04] [Server thread/INFO]: Item Merge Radius: 2.5
-[19:11:04] [Server thread/INFO]: Simulation Distance: 10
-[19:11:04] [Server thread/INFO]: View Distance: 10
-[19:11:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[19:11:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[19:11:04] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[19:11:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[19:11:04] [Server thread/INFO]: Cane Growth Modifier: 100%
-[19:11:04] [Server thread/INFO]: Melon Growth Modifier: 100%
-[19:11:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[19:11:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[19:11:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[19:11:04] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[19:11:04] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[19:11:04] [Server thread/INFO]: Potato Growth Modifier: 100%
-[19:11:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[19:11:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[19:11:04] [Server thread/INFO]: Vine Growth Modifier: 100%
-[19:11:04] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[19:11:04] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[19:11:04] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[19:11:04] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[19:11:04] [Server thread/INFO]: Mob Spawn Range: 6
-[19:11:04] [Server thread/INFO]: Experience Merge Radius: 3.0
-[19:11:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[19:11:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[19:11:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[19:11:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[19:11:04] [Server thread/INFO]: Max TNT Explosions: 100
-[19:11:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[19:11:05] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[19:11:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[19:11:05] [Server thread/INFO]: Item Despawn Rate: 6000
-[19:11:05] [Server thread/INFO]: Item Merge Radius: 2.5
-[19:11:05] [Server thread/INFO]: Simulation Distance: 10
-[19:11:05] [Server thread/INFO]: View Distance: 10
-[19:11:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[19:11:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[19:11:05] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[19:11:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[19:11:05] [Server thread/INFO]: Cane Growth Modifier: 100%
-[19:11:05] [Server thread/INFO]: Melon Growth Modifier: 100%
-[19:11:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[19:11:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[19:11:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[19:11:05] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[19:11:05] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[19:11:05] [Server thread/INFO]: Potato Growth Modifier: 100%
-[19:11:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[19:11:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[19:11:05] [Server thread/INFO]: Vine Growth Modifier: 100%
-[19:11:05] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[19:11:05] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[19:11:05] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[19:11:05] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[19:11:05] [Server thread/INFO]: Mob Spawn Range: 6
-[19:11:05] [Server thread/INFO]: Experience Merge Radius: 3.0
-[19:11:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[19:11:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[19:11:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[19:11:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[19:11:05] [Server thread/INFO]: Max TNT Explosions: 100
-[19:11:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[19:11:06] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[19:11:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[19:11:06] [Server thread/INFO]: Item Despawn Rate: 6000
-[19:11:06] [Server thread/INFO]: Item Merge Radius: 2.5
-[19:11:06] [Server thread/INFO]: Simulation Distance: 10
-[19:11:06] [Server thread/INFO]: View Distance: 10
-[19:11:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[19:11:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[19:11:06] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[19:11:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[19:11:06] [Server thread/INFO]: Cane Growth Modifier: 100%
-[19:11:06] [Server thread/INFO]: Melon Growth Modifier: 100%
-[19:11:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[19:11:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[19:11:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[19:11:06] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[19:11:06] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[19:11:06] [Server thread/INFO]: Potato Growth Modifier: 100%
-[19:11:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[19:11:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[19:11:06] [Server thread/INFO]: Vine Growth Modifier: 100%
-[19:11:06] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[19:11:06] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[19:11:06] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[19:11:06] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[19:11:06] [Server thread/INFO]: Mob Spawn Range: 6
-[19:11:06] [Server thread/INFO]: Experience Merge Radius: 3.0
-[19:11:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[19:11:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[19:11:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[19:11:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[19:11:06] [Server thread/INFO]: Max TNT Explosions: 100
-[19:11:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[19:11:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:11:09] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[19:11:09] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[19:11:09] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[19:11:09] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[19:11:09] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[19:11:09] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[19:11:09] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[19:11:10] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[19:11:10] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[19:11:11] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[19:11:11] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[19:11:12] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[19:11:12] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[19:11:12] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:12] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:12] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:12] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:12] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:12] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:12] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:12] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:12] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:12] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:13] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:13] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[19:11:13] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:13] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:13] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:13] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:13] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:13] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[19:11:14] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[19:11:14] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:14] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:14] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:14] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:14] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:14] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:14] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:14] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:14] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:14] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:14] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:14] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:14] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:14] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:14] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:14] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:14] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:14] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:14] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:14] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:14] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:14] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[19:11:14] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:14] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:14] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:14] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:14] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:14] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:14] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:14] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:15] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:15] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:15] [Worker-Main-4/INFO]: Preparing spawn area: 1%
-[19:11:15] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:15] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:15] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:15] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:15] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:15] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:15] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:15] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:15] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:15] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:15] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:15] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:15] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:15] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:15] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:15] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:15] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:15] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:15] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:15] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:15] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:15] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:15] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:15] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:15] [Worker-Main-4/INFO]: Preparing spawn area: 3%
-[19:11:16] [Worker-Main-4/INFO]: Preparing spawn area: 4%
-[19:11:16] [Worker-Main-4/INFO]: Preparing spawn area: 4%
-[19:11:17] [Worker-Main-4/INFO]: Preparing spawn area: 4%
-[19:11:17] [Worker-Main-5/INFO]: Preparing spawn area: 4%
-[19:11:18] [Worker-Main-4/INFO]: Preparing spawn area: 6%
-[19:11:18] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:18] [Worker-Main-5/INFO]: Preparing spawn area: 9%
-[19:11:18] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:18] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:18] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:18] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:18] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:18] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:18] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:18] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:18] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:18] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:19] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:19] [Server thread/ERROR]: No key old_noise in MapLike[{max_section:20,min_section:-4}]
-[19:11:19] [Worker-Main-5/INFO]: Preparing spawn area: 13%
-[19:11:19] [Worker-Main-5/INFO]: Preparing spawn area: 13%
-[19:11:20] [Worker-Main-5/INFO]: Preparing spawn area: 13%
-[19:11:20] [Worker-Main-5/INFO]: Preparing spawn area: 26%
-[19:11:21] [Worker-Main-4/INFO]: Preparing spawn area: 49%
-[19:11:21] [Worker-Main-5/INFO]: Preparing spawn area: 59%
-[19:11:22] [Worker-Main-5/INFO]: Preparing spawn area: 64%
-[19:11:22] [Worker-Main-4/INFO]: Preparing spawn area: 72%
-[19:11:23] [Worker-Main-5/INFO]: Preparing spawn area: 82%
-[19:11:23] [Worker-Main-5/INFO]: Preparing spawn area: 85%
-[19:11:24] [Worker-Main-5/INFO]: Preparing spawn area: 93%
-[19:11:25] [Server thread/INFO]: Time elapsed: 18883 ms
-[19:11:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:11:27] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[19:11:27] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[19:11:27] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[19:11:27] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[19:11:27] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[19:11:28] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[19:11:28] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[19:11:29] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[19:11:29] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[19:11:30] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[19:11:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[19:11:31] [Worker-Main-6/INFO]: Preparing spawn area: 1%
-[19:11:31] [Worker-Main-4/INFO]: Preparing spawn area: 4%
-[19:11:32] [Worker-Main-4/INFO]: Preparing spawn area: 4%
-[19:11:32] [Worker-Main-5/INFO]: Preparing spawn area: 15%
-[19:11:33] [Worker-Main-4/INFO]: Preparing spawn area: 16%
-[19:11:33] [Worker-Main-4/INFO]: Preparing spawn area: 30%
-[19:11:34] [Worker-Main-6/INFO]: Preparing spawn area: 78%
-[19:11:34] [Server thread/INFO]: Time elapsed: 8885 ms
-[19:11:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:11:36] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[19:11:36] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[19:11:36] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[19:11:36] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[19:11:36] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[19:11:37] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[19:11:37] [Worker-Main-6/INFO]: Preparing spawn area: 1%
-[19:11:38] [Worker-Main-6/INFO]: Preparing spawn area: 6%
-[19:11:38] [Worker-Main-4/INFO]: Preparing spawn area: 31%
-[19:11:39] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[19:11:39] [Server thread/INFO]: Time elapsed: 4768 ms
-[19:11:39] [Server thread/INFO]: [FK] Enabling FallenKingdom v2.22.5
-[19:11:40] [Server thread/WARN]: [FK] Key console.lang.could-not-list-files not translated in your language; using of default value
-[19:11:40] [Server thread/INFO]: Veuillez sélectionner votre langue en cliquant dessus.
-[19:11:40] [Server thread/INFO]: ? Please select your language by clicking on it.
-[19:11:40] [Server thread/INFO]: ? Bitte wählen Sie Ihre Sprache aus, indem Sie darauf klicken.
-[19:11:40] [Server thread/WARN]: [FK] Key inv.potion.title not translated in your language; using of default value
-[19:11:40] [Server thread/WARN]: [FK] Key inv.potion.enable not translated in your language; using of default value
-[19:11:40] [Server thread/WARN]: [FK] Key inv.potion.disable not translated in your language; using of default value
-[19:11:40] [Server thread/WARN]: [FK] Key inv.potion.level-ii not translated in your language; using of default value
-[19:11:40] [Server thread/WARN]: [FK] Key scoreboard.default not translated in your language; using of default value
-[19:11:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:11:41] [Server thread/INFO]: Done (38.281s)! For help, type "help"
-[19:12:00] [User Authenticator #1/INFO]: UUID of player djovn is f24306bd-1d52-4ad6-b699-614108807069
-[19:12:01] [Server thread/WARN]: [FK] Key scoreboard.teams not translated in your language; using of default value
-[19:12:01] [Server thread/WARN]: [FK] Key scoreboard.rules not translated in your language; using of default value
-[19:12:01] [Server thread/WARN]: [FK] Key chat.join not translated in your language; using of default value
-[19:12:02] [Server thread/INFO]: djovn[/127.0.0.1:20057] logged in with entity id 260 at ([world]47.737455725528584, 142.0, 61.9336701877424)
-[19:12:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5021ms or 100 ticks behind
-[19:12:30] [Server thread/INFO]: djovn issued server command: /fk lang set fr
-[19:12:42] [Server thread/INFO]: djovn issued server command: /fk team create Fox
-[19:12:42] [Server thread/INFO]: [Fk] L'équipe Fox a été créée !
-[19:12:48] [Server thread/INFO]: djovn issued server command: /fk team create Racoon
-[19:12:48] [Server thread/INFO]: [Fk] L'équipe Racoon a été créée !
-[19:12:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21379ms or 427 ticks behind
-[19:13:21] [Server thread/INFO]: djovn issued server command: /fk team create Weasel
-[19:13:21] [Server thread/INFO]: [Fk] L'équipe Weasel a été créée !
-[19:13:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7394ms or 147 ticks behind
-[19:13:46] [Server thread/INFO]: djovn issued server command: /fk team create Badger
-[19:13:46] [Server thread/INFO]: [Fk] L'équipe Badger a été créée !
-[19:14:00] [Server thread/INFO]: djovn issued server command: /fk team setColor Fox orange
-[19:14:00] [Server thread/INFO]: [Fk] L'équipe Fox est maintenant de couleur orange.
-[19:14:06] [Server thread/INFO]: djovn issued server command: /fk team setColor Badger noir
-[19:14:06] [Server thread/INFO]: [Fk] L'équipe Badger est maintenant de couleur noire.
-[19:14:27] [Server thread/INFO]: djovn issued server command: /fk team setColor Badger gris
-[19:14:27] [Server thread/INFO]: [Fk] L'équipe Badger est maintenant de couleur grise.
-[19:14:49] [Server thread/INFO]: djovn issued server command: /fk team setColor Racoon rouge
-[19:14:49] [Server thread/INFO]: [Fk] L'équipe Racoon est maintenant de couleur rouge.
-[19:15:00] [Server thread/INFO]: djovn issued server command: /fk team setColor Weasel vert
-[19:15:00] [Server thread/INFO]: [Fk] L'équipe Weasel est maintenant de couleur verte.
-[19:15:22] [Server thread/INFO]: [Fk] djovn fell from a high place
-[19:15:31] [Server thread/INFO]: djovn issued server command: /gamemode creative
-[19:15:31] [Server thread/INFO]: [djovn: Set own game mode to Creative Mode]
-[19:16:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5086ms or 101 ticks behind
-[19:16:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5011ms or 100 ticks behind
-[19:17:13] [Server thread/WARN]: djovn moved too quickly! 1.310685877714505,1.0,-10.033144292205947
-[19:17:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25141ms or 502 ticks behind
-[19:20:58] [Server thread/INFO]: djovn issued server command: /gamemode creative
-[19:21:01] [Server thread/INFO]: djovn issued server command: /fk team setBase Badger 14
-[19:21:01] [Server thread/INFO]: [Fk] La base de l'équipe Badger a été définie en : x > -110; z > -110
-[19:21:15] [Server thread/INFO]: djovn issued server command: /fk team setBase Badger 14
-[19:21:15] [Server thread/INFO]: [Fk] La base de l'équipe Badger a été définie en : x > -110; z > -110
-[19:21:35] [Server thread/INFO]: djovn has made the advancement [Stone Age]
-[19:21:43] [Server thread/INFO]: djovn issued server command: /fk team setBase Badger 14
-[19:21:43] [Server thread/INFO]: [Fk] La base de l'équipe Badger a été définie en : x > -110; z > -110
-[19:24:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5033ms or 100 ticks behind
-[19:25:10] [Server thread/INFO]: djovn issued server command: /fk team setBase Badger 15
-[19:25:10] [Server thread/INFO]: [Fk] La base de l'équipe Badger a été définie en : x > -110; z > -110
-[19:25:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5031ms or 100 ticks behind
-[19:26:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16161ms or 323 ticks behind
-[19:26:17] [Server thread/INFO]: djovn issued server command: /fk team setBase Fox 15
-[19:26:17] [Server thread/INFO]: [Fk] La base de l'équipe Fox a été définie en : x > -205; z > 168
-[19:27:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16823ms or 336 ticks behind
-[19:27:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16412ms or 328 ticks behind
-[19:27:55] [Server thread/INFO]: djovn issued server command: /fk team setBase Racoon 15
-[19:27:55] [Server thread/INFO]: [Fk] La base de l'équipe Racoon a été définie en : x > 337; z > 206
-[19:28:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7850ms or 157 ticks behind
-[19:29:02] [Server thread/INFO]: djovn issued server command: /fk team setBase Weasel 15
-[19:29:02] [Server thread/INFO]: [Fk] La base de l'équipe Weasel a été définie en : x > 310; z > -105
-[19:29:35] [Server thread/INFO]: djovn issued server command: /fk rules friendlyFire false
-[19:29:35] [Server thread/INFO]: [Fk] Le PvP entre les membres d'une même équipe est désactivé !
-[19:30:03] [Server thread/INFO]: djovn issued server command: /fk rules allowBlock
-[19:30:03] [Server thread/INFO]: [Fk] Le bloc TNT peut maintenant être posé en dehors de sa base !
-[19:30:26] [Server thread/INFO]: djovn issued server command: /fk rules pvpCap 2
-[19:30:26] [Server thread/INFO]: [Fk] Le PvP est maintenant actif à partir du jour 2 !
-[19:30:38] [Server thread/INFO]: djovn issued server command: /fk rules tntCap 3
-[19:30:38] [Server thread/INFO]: [Fk] Les assauts sont maintenant actifs à partir du jour 3 !
-[19:30:47] [Server thread/INFO]: djovn issued server command: /fk rules netherCap 3
-[19:30:47] [Server thread/INFO]: [Fk] Le Nether est maintenant actif à partir du jour 3 !
-[19:31:35] [Server thread/INFO]: djovn has made the advancement [Getting an Upgrade]
-[19:32:12] [Server thread/INFO]: djovn issued server command: /fk rules tntJump false
-[19:32:12] [Server thread/INFO]: [Fk] Il est maintenant impossible de sauter d'une tnt à une autre aux abords d'une base adverse.
-[19:32:29] [Server thread/INFO]: djovn issued server command: /fk game starterInv save
-[19:36:00] [Server thread/INFO]: djovn issued server command: /weather clear
-[19:36:00] [Server thread/INFO]: [djovn: Set the weather to clear]
-[19:40:37] [Server thread/INFO]: djovn issued server command: /setworldspawn
-[19:40:37] [Server thread/INFO]: [djovn: Set the world spawn point to 46, 236, 61 [0.0]]
-[19:41:30] [Server thread/INFO]: djovn issued server command: /weather clear
-[19:41:30] [Server thread/INFO]: [djovn: Set the weather to clear]
-[19:41:42] [Server thread/INFO]: djovn issued server command: /gamerule doFireTick false
-[19:41:42] [Server thread/INFO]: [djovn: Gamerule doFireTick is now set to: false]
-[19:46:37] [Server thread/INFO]: djovn issued server command: /weather clear
-[19:46:37] [Server thread/INFO]: [djovn: Set the weather to clear]
-[19:48:19] [Server thread/INFO]: djovn issued server command: /time set night
-[19:48:19] [Server thread/INFO]: [djovn: Set the time to 13000]
-[19:48:27] [Server thread/INFO]: djovn issued server command: /time set 1400
-[19:48:27] [Server thread/INFO]: [djovn: Set the time to 1400]
-[19:48:33] [Server thread/INFO]: djovn issued server command: /time set 1350
-[19:48:33] [Server thread/INFO]: [djovn: Set the time to 1350]
-[19:48:41] [Server thread/INFO]: djovn issued server command: /time set 14000
-[19:48:41] [Server thread/INFO]: [djovn: Set the time to 14000]
-[19:50:05] [Server thread/INFO]: djovn issued server command: /fk rules bucketAssault false
-[19:50:05] [Server thread/INFO]: [FK] Légère erreur : Cette règle est déjà définie !
-[19:50:39] [Server thread/INFO]: djovn issued server command: /fk rules chestLimit 40
-[19:50:39] [Server thread/INFO]: [Fk] Les salles des coffres ne peuvent maintenant plus dépasser 40 blocs de profondeur ou de hauteur !
-[19:51:22] [Server thread/INFO]: djovn issued server command: /fk rules disabledPotions
-[19:51:30] [Server thread/INFO]: [Fk] La potion INVISIBILITY + redstone est désactivée !
-[19:51:39] [Server thread/INFO]: [Fk] La potion JUMP + glowstone est désactivée !
-[19:51:40] [Server thread/INFO]: [Fk] La potion JUMP + redstone est désactivée !
-[19:51:43] [Server thread/INFO]: [Fk] La potion FIRE_RESISTANCE + redstone est désactivée !
-[19:51:46] [Server thread/INFO]: [Fk] La potion SPEED + glowstone est désactivée !
-[19:51:47] [Server thread/INFO]: [Fk] La potion SPEED + redstone est désactivée !
-[19:51:54] [Server thread/INFO]: [Fk] La potion SLOWNESS + glowstone est désactivée !
-[19:51:58] [Server thread/INFO]: [Fk] La potion WATER_BREATHING + redstone est désactivée !
-[19:52:01] [Server thread/INFO]: [Fk] La potion INSTANT_HEAL + glowstone est désactivée !
-[19:52:03] [Server thread/INFO]: [Fk] La potion INSTANT_DAMAGE + glowstone est désactivée !
-[19:52:05] [Server thread/INFO]: [Fk] La potion POISON + glowstone est désactivée !
-[19:52:10] [Server thread/INFO]: [Fk] La potion REGEN + glowstone est désactivée !
-[19:52:13] [Server thread/INFO]: [Fk] La potion STRENGTH + glowstone est désactivée !
-[19:52:14] [Server thread/INFO]: [Fk] La potion STRENGTH + redstone est désactivée !
-[19:52:17] [Server thread/INFO]: [Fk] La potion WEAKNESS + redstone est désactivée !
-[19:52:18] [Server thread/INFO]: [Fk] La potion LUCK est désactivée !
-[19:52:19] [Server thread/INFO]: [Fk] La potion LUCK est réactivée !
-[19:52:23] [Server thread/INFO]: [Fk] La potion TURTLE_MASTER est désactivée !
-[19:52:24] [Server thread/INFO]: [Fk] La potion TURTLE_MASTER + glowstone est désactivée !
-[19:52:25] [Server thread/INFO]: [Fk] La potion TURTLE_MASTER + redstone est désactivée !
-[19:52:27] [Server thread/INFO]: [Fk] La potion SLOW_FALLING + redstone est désactivée !
-[19:52:27] [Server thread/INFO]: [Fk] La potion SLOW_FALLING est désactivée !
-[19:53:33] [Server thread/INFO]: djovn issued server command: /fk rules healthBelowName false
-[19:53:33] [Server thread/INFO]: [Fk] Désormais, la vie des joueurs n'est plus visible sous leur pseudo !
-[19:56:43] [Server thread/INFO]: djovn issued server command: /weather clear
-[19:56:43] [Server thread/INFO]: [djovn: Set the weather to clear]
-[19:58:38] [Server thread/INFO]: djovn issued server command: /fk chests help
-[19:59:03] [Server thread/INFO]: djovn issued server command: /fk team tp Badger
-[19:59:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5058ms or 101 ticks behind
-[19:59:19] [Server thread/INFO]: djovn issued server command: /fk team tp Fox
-[19:59:37] [Server thread/INFO]: djovn issued server command: /fk team tp Badger
-[19:59:46] [Server thread/INFO]: djovn issued server command: /fk team tp Racoon
-[19:59:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5813ms or 116 ticks behind
-[19:59:58] [Server thread/INFO]: djovn issued server command: /fk team tp Weasel
-[20:00:34] [Server thread/INFO]: djovn issued server command: /fk game starterInv show
-[20:01:11] [Server thread/INFO]: djovn issued server command: /tp djovn home
-[20:01:17] [Server thread/INFO]: djovn issued server command: /tp djovn 0 100 0
-[20:01:17] [Server thread/INFO]: [djovn: Teleported djovn to 0.500000, 100.000000, 0.500000]
-[20:01:35] [Server thread/INFO]: djovn issued server command: /tp djovn 0 200 0
-[20:01:35] [Server thread/INFO]: [djovn: Teleported djovn to 0.500000, 200.000000, 0.500000]
-[20:01:54] [Server thread/INFO]: djovn lost connection: Disconnected
-[20:02:01] [Server thread/INFO]: Stopping the server
-[20:02:01] [Server thread/INFO]: Stopping server
-[20:02:01] [Server thread/INFO]: [FK] Disabling FallenKingdom v2.22.5
-[20:02:01] [Server thread/INFO]: Saving players
-[20:02:01] [Server thread/INFO]: Saving worlds
-[20:02:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:02:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[20:03:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[20:03:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:03:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:03:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:03:00] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:58:27] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:58:32] [Worker-Main-4/INFO]: Loaded 7 recipes
+[20:58:39] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[20:58:39] [Server thread/INFO]: Loading properties
+[20:58:39] [Server thread/INFO]: This server is running CraftBukkit version 3498-Spigot-b081915-10ba1be (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT)
+[20:58:40] [Server thread/INFO]: Debug logging is disabled
+[20:58:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:58:40] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:58:40] [Server thread/INFO]: Default game type: SURVIVAL
+[20:58:40] [Server thread/INFO]: Generating keypair
+[20:58:40] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:58:40] [Server thread/INFO]: Using default channel type
+[20:58:42] [Server thread/INFO]: [FK] Loading FallenKingdom v2.22.5
+[20:58:42] [Server thread/INFO]: Preparing level "world"
+[20:58:43] [Server thread/INFO]: -------- World Settings For [world] --------
+[20:58:43] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:58:43] [Server thread/INFO]: Mob Spawn Range: 6
+[20:58:43] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:58:43] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:58:43] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:58:43] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:58:43] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:58:43] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:58:43] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[20:58:43] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[20:58:43] [Server thread/INFO]: Potato Growth Modifier: 100%
+[20:58:43] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:58:43] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:58:43] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:58:43] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:58:43] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[20:58:43] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[20:58:43] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[20:58:43] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[20:58:43] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[20:58:43] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:58:43] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[20:58:43] [Server thread/INFO]: Max TNT Explosions: 100
+[20:58:43] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:58:43] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:58:43] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:58:43] [Server thread/INFO]: View Distance: 10
+[20:58:43] [Server thread/INFO]: Simulation Distance: 10
+[20:58:43] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:58:43] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:58:43] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:58:43] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[20:58:44] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[20:58:44] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:58:44] [Server thread/INFO]: Mob Spawn Range: 6
+[20:58:44] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:58:44] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:58:44] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:58:44] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:58:44] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:58:44] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:58:44] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[20:58:44] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[20:58:44] [Server thread/INFO]: Potato Growth Modifier: 100%
+[20:58:44] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:58:44] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:58:44] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:58:44] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:58:44] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[20:58:44] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[20:58:44] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[20:58:44] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[20:58:44] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[20:58:44] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:58:44] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[20:58:44] [Server thread/INFO]: Max TNT Explosions: 100
+[20:58:44] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:58:44] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:58:44] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:58:44] [Server thread/INFO]: View Distance: 10
+[20:58:44] [Server thread/INFO]: Simulation Distance: 10
+[20:58:44] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:58:44] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:58:44] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:58:44] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[20:58:44] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[20:58:44] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:58:44] [Server thread/INFO]: Mob Spawn Range: 6
+[20:58:44] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:58:44] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:58:44] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:58:44] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:58:44] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:58:44] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:58:44] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[20:58:44] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[20:58:44] [Server thread/INFO]: Potato Growth Modifier: 100%
+[20:58:44] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:58:44] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:58:44] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:58:44] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:58:44] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[20:58:44] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[20:58:44] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[20:58:44] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[20:58:44] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[20:58:44] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:58:44] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[20:58:44] [Server thread/INFO]: Max TNT Explosions: 100
+[20:58:44] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:58:44] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:58:44] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:58:44] [Server thread/INFO]: View Distance: 10
+[20:58:44] [Server thread/INFO]: Simulation Distance: 10
+[20:58:44] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:58:44] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:58:44] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:58:44] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[20:58:44] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:58:51] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:58:51] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:58:51] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:58:51] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:58:51] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:58:51] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:58:51] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:58:52] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:58:52] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:58:52] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:58:52] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:58:52] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:58:52] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:58:52] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:58:52] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:58:52] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:58:52] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:58:53] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:58:53] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:59:04] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:59:04] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:59:04] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:59:04] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:59:04] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:59:04] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:59:04] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:59:04] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:59:04] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:59:04] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:59:04] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:59:04] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:59:04] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:59:04] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:59:04] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:59:04] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:59:04] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:59:04] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:59:04] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:59:04] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:59:04] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:59:04] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:59:05] [Worker-Main-6/INFO]: Preparing spawn area: 15%
+[20:59:05] [Worker-Main-5/INFO]: Preparing spawn area: 23%
+[20:59:06] [Worker-Main-5/INFO]: Preparing spawn area: 23%
+[20:59:06] [Worker-Main-6/INFO]: Preparing spawn area: 23%
+[20:59:07] [Worker-Main-4/INFO]: Preparing spawn area: 70%
+[20:59:08] [Server thread/INFO]: Time elapsed: 23180 ms
+[20:59:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:59:12] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:59:12] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:59:12] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:59:12] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:59:12] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:59:12] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:59:12] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:59:13] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:59:13] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:59:14] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:59:14] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:59:15] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:59:15] [Worker-Main-6/INFO]: Preparing spawn area: 1%
+[20:59:16] [Worker-Main-6/INFO]: Preparing spawn area: 4%
+[20:59:16] [Worker-Main-6/INFO]: Preparing spawn area: 6%
+[20:59:17] [Worker-Main-5/INFO]: Preparing spawn area: 6%
+[20:59:17] [Worker-Main-6/INFO]: Preparing spawn area: 6%
+[20:59:18] [Worker-Main-6/INFO]: Preparing spawn area: 8%
+[20:59:18] [Worker-Main-6/INFO]: Preparing spawn area: 15%
+[20:59:19] [Worker-Main-6/INFO]: Preparing spawn area: 19%
+[20:59:19] [Worker-Main-5/INFO]: Preparing spawn area: 30%
+[20:59:20] [Worker-Main-5/INFO]: Preparing spawn area: 65%
+[20:59:20] [Worker-Main-4/INFO]: Preparing spawn area: 78%
+[20:59:20] [Server thread/INFO]: Time elapsed: 11434 ms
+[20:59:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:59:23] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:59:23] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:59:23] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:59:23] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:59:23] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:59:23] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:59:23] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:59:24] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:59:24] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:59:25] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:59:25] [Worker-Main-5/INFO]: Preparing spawn area: 3%
+[20:59:26] [Worker-Main-6/INFO]: Preparing spawn area: 6%
+[20:59:26] [Worker-Main-6/INFO]: Preparing spawn area: 6%
+[20:59:27] [Worker-Main-6/INFO]: Preparing spawn area: 27%
+[20:59:27] [Worker-Main-6/INFO]: Preparing spawn area: 39%
+[20:59:28] [Worker-Main-5/INFO]: Preparing spawn area: 62%
+[20:59:28] [Worker-Main-6/INFO]: Preparing spawn area: 88%
+[20:59:29] [Server thread/INFO]: Time elapsed: 8520 ms
+[20:59:29] [Server thread/INFO]: [FK] Enabling FallenKingdom v2.22.5
+[20:59:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:59:32] [Server thread/INFO]: Done (50.052s)! For help, type "help"
+[20:59:35] [User Authenticator #1/INFO]: UUID of player djovn is f24306bd-1d52-4ad6-b699-614108807069
+[20:59:37] [Server thread/INFO]: djovn[/127.0.0.1:3224] logged in with entity id 147 at ([world]46.44249816082013, 236.5625, 61.35305957721534)
+[20:59:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5018ms or 100 ticks behind
+[21:00:11] [Server thread/INFO]: djovn issued server command: /fk rules enderpearlAssault false
+[21:00:11] [Server thread/INFO]: [0;37;22m[[0;35;22mFk[0;37;22m] [0;33;22mLes assauts en se téléportant sont [0;35;22mimpossibles[0;33;22m ![m
+[21:00:23] [Server thread/INFO]: djovn issued server command: /weather clear
+[21:00:23] [Server thread/INFO]: [djovn: Set the weather to clear]
+[21:00:49] [Server thread/INFO]: djovn issued server command: /fk rules allowBlock
+[21:00:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 45741ms or 914 ticks behind
+[21:01:04] [Server thread/INFO]: djovn issued server command: /fk rules bucketAssault false
+[21:01:04] [Server thread/INFO]: [FK] Légère erreur : Cette règle est déjà définie !
+[21:01:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12705ms or 254 ticks behind
+[21:03:06] [Server thread/INFO]: djovn issued server command: /fk rules disabledPotions
+[21:03:27] [Server thread/INFO]: [0;37;22m[[0;35;22mFk[0;37;22m] [0;33;22mLa potion JUMP + glowstone est[0;32;1m réactivée[0;33;22m ![m
+[21:03:54] [Server thread/INFO]: [0;37;22m[[0;35;22mFk[0;37;22m] [0;33;22mLa potion JUMP + glowstone est[0;31;1m désactivée[0;33;22m ![m
+[21:03:59] [Server thread/INFO]: [0;37;22m[[0;35;22mFk[0;37;22m] [0;33;22mLa potion JUMP + glowstone est[0;32;1m réactivée[0;33;22m ![m
+[21:04:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5003ms or 100 ticks behind
+[21:05:06] [Server thread/INFO]: djovn issued server command: /fk rules friendlyFire false
+[21:05:06] [Server thread/INFO]: [FK] Légère erreur : Cette règle est déjà définie !
+[21:06:01] [Server thread/INFO]: djovn issued server command: /fk rules globalChatPrefix !
+[21:06:01] [Server thread/INFO]: [0;37;22m[[0;35;22mFk[0;37;22m] [0;33;22mPour envoyer un message dans le chat global, utiliser [0;35;22m![0;33;22m.[m
+[21:06:06] [Server thread/INFO]: djovn issued server command: /weather clear
+[21:06:06] [Server thread/INFO]: [djovn: Set the weather to clear]
+[21:06:28] [Server thread/INFO]: djovn issued server command: /fk rules healthBelowName false
+[21:06:28] [Server thread/INFO]: [FK] Légère erreur : Cette règle est déjà définie !
+[21:07:37] [Server thread/INFO]: djovn issued server command: /fk rules respawnAtHome true
+[21:07:37] [Server thread/INFO]: [0;37;22m[[0;35;22mFk[0;37;22m] [0;33;22mLes joueurs réapparaîtront [0;35;22mà leur base [0;33;22ms'ils n'ont pas de lit ![m
+[21:08:32] [Server thread/INFO]: djovn issued server command: /fk rules pvpCap 2
+[21:08:32] [Server thread/INFO]: [0;37;22m[[0;35;22mFk[0;37;22m] [0;33;22mLe PvP est maintenant actif à partir du jour [0;35;22m2[0;33;22m ![m
+[21:08:59] [Server thread/INFO]: djovn issued server command: /fk rules tntCap 3
+[21:08:59] [Server thread/INFO]: [0;37;22m[[0;35;22mFk[0;37;22m] [0;33;22mLes assauts sont maintenant actifs à partir du jour [0;35;22m3[0;33;22m ![m
+[21:09:08] [Server thread/INFO]: djovn issued server command: /fk rules netherCap 3
+[21:09:08] [Server thread/INFO]: [0;37;22m[[0;35;22mFk[0;37;22m] [0;33;22mLe Nether est maintenant actif à partir du jour [0;35;22m3[0;33;22m ![m
+[21:09:20] [Server thread/INFO]: djovn issued server command: /fk rules endCap 3
+[21:09:20] [Server thread/INFO]: [0;37;22m[[0;35;22mFk[0;37;22m] [0;33;22mL'End est maintenant actif à partir du jour [0;35;22m3[0;33;22m ![m
+[21:09:30] [Server thread/INFO]: djovn issued server command: /fk rules endCap 4
+[21:09:30] [Server thread/INFO]: [0;37;22m[[0;35;22mFk[0;37;22m] [0;33;22mL'End est maintenant actif à partir du jour [0;35;22m4[0;33;22m ![m
+[21:10:47] [Server thread/INFO]: djovn issued server command: /fk team list
+[21:12:53] [Server thread/INFO]: djovn issued server command: /fk rules chargedCreepers 100 40 1
+[21:12:53] [Server thread/INFO]: [0;37;22m[[0;35;22mFk[0;37;22m] [0;33;22mDésormais, lorsqu'un creeper spawn, il a [0;31;1m100%[0;33;22m de chance de se transformer en un creeper chargé.[m
+[21:12:53] [Server thread/INFO]: [0;37;22m[[0;35;22mFk[0;37;22m] [0;33;22mUn creeper chargé a [0;31;1m40%[0;33;22m de chance de donner [0;31;1m1 TNT(s)[0;33;22m à sa mort.[m
+[21:16:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5021ms or 100 ticks behind
+[21:16:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5014ms or 100 ticks behind
+[21:17:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6188ms or 123 ticks behind
+[21:18:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5034ms or 100 ticks behind
+[21:18:36] [Server thread/INFO]: djovn issued server command: /difficulty
+[21:18:39] [Server thread/INFO]: djovn issued server command: /difficulty normal
+[21:18:39] [Server thread/INFO]: [djovn: The difficulty has been set to Normal]
+[21:18:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10844ms or 216 ticks behind
+[21:18:59] [Server thread/INFO]: djovn issued server command: /weather clear
+[21:18:59] [Server thread/INFO]: [djovn: Set the weather to clear]
+[21:19:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5004ms or 100 ticks behind
+[21:20:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5047ms or 100 ticks behind
+[21:21:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6733ms or 134 ticks behind
+[21:21:32] [Server thread/INFO]: djovn lost connection: Disconnected
+[21:21:36] [Server thread/INFO]: Stopping the server
+[21:21:36] [Server thread/INFO]: Stopping server
+[21:21:36] [Server thread/INFO]: [FK] Disabling FallenKingdom v2.22.5
+[21:21:36] [Server thread/INFO]: Saving players
+[21:21:36] [Server thread/INFO]: Saving worlds
+[21:21:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:21:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:21:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[21:21:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:21:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:21:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:21:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
