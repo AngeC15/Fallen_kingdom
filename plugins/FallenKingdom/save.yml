@@ -2,101 +2,27 @@ last_version: 2.22.5
 FkPI:
   RulesManager:
     Rules:
-      EnderpearlAssault:
-        value: false
-      HealthBelowName:
-        value: false
-      FriendlyFire:
-        value: false
-      RespawnAtHome:
-        value: true
+      ChestLimit:
+        value: 40
       TntJump:
         value: false
-      BucketAssault:
+      ChargedCreepers:
+        value: 50030001
+      PlaceBlockInCave:
+        value: false
+        MinimumBlocs: 3
+      EnderpearlAssault:
         value: false
       DeathLimit:
         value: 0
-      CaptureRate:
-        value: 100
+      DayDuration:
+        value: 24000
+      BucketAssault:
+        value: false
       EndCap:
         value: 4
-      DisabledPotions:
-        '0':
-          Type: TURTLE_MASTER
-          Extended: true
-          Upgraded: false
-        '1':
-          Type: POISON
-          Extended: false
-          Upgraded: true
-        '2':
-          Type: INSTANT_HEAL
-          Extended: false
-          Upgraded: true
-        '3':
-          Type: WATER_BREATHING
-          Extended: true
-          Upgraded: false
-        '4':
-          Type: INSTANT_DAMAGE
-          Extended: false
-          Upgraded: true
-        '5':
-          Type: TURTLE_MASTER
-          Extended: false
-          Upgraded: true
-        '6':
-          Type: INVISIBILITY
-          Extended: true
-          Upgraded: false
-        '7':
-          Type: SLOW_FALLING
-          Extended: true
-          Upgraded: false
-        '8':
-          Type: REGEN
-          Extended: false
-          Upgraded: true
-        '9':
-          Type: SPEED
-          Extended: true
-          Upgraded: false
-        '10':
-          Type: TURTLE_MASTER
-          Extended: false
-          Upgraded: false
-        '11':
-          Type: JUMP
-          Extended: true
-          Upgraded: false
-        '12':
-          Type: SPEED
-          Extended: false
-          Upgraded: true
-        '13':
-          Type: STRENGTH
-          Extended: true
-          Upgraded: false
-        '14':
-          Type: FIRE_RESISTANCE
-          Extended: true
-          Upgraded: false
-        '15':
-          Type: STRENGTH
-          Extended: false
-          Upgraded: true
-        '16':
-          Type: SLOW_FALLING
-          Extended: false
-          Upgraded: false
-        '17':
-          Type: WEAKNESS
-          Extended: true
-          Upgraded: false
-        '18':
-          Type: SLOWNESS
-          Extended: false
-          Upgraded: true
+      FriendlyFire:
+        value: false
       AllowedBlocks:
         value:
         - TORCH
@@ -123,29 +49,103 @@ FkPI:
         - WARPED_WALL_SIGN
       VerticalLimit:
         value: 40
-      EternalDay:
-        value: false
-      PlaceBlockInCave:
-        value: false
-        MinimumBlocs: 3
+      DisabledPotions:
+        '0':
+          Type: FIRE_RESISTANCE
+          Extended: true
+          Upgraded: false
+        '1':
+          Type: INSTANT_DAMAGE
+          Extended: false
+          Upgraded: true
+        '2':
+          Type: SLOW_FALLING
+          Extended: true
+          Upgraded: false
+        '3':
+          Type: TURTLE_MASTER
+          Extended: true
+          Upgraded: false
+        '4':
+          Type: SPEED
+          Extended: false
+          Upgraded: true
+        '5':
+          Type: INVISIBILITY
+          Extended: true
+          Upgraded: false
+        '6':
+          Type: POISON
+          Extended: false
+          Upgraded: true
+        '7':
+          Type: REGEN
+          Extended: false
+          Upgraded: true
+        '8':
+          Type: INSTANT_HEAL
+          Extended: false
+          Upgraded: true
+        '9':
+          Type: STRENGTH
+          Extended: true
+          Upgraded: false
+        '10':
+          Type: SLOW_FALLING
+          Extended: false
+          Upgraded: false
+        '11':
+          Type: WATER_BREATHING
+          Extended: true
+          Upgraded: false
+        '12':
+          Type: JUMP
+          Extended: true
+          Upgraded: false
+        '13':
+          Type: WEAKNESS
+          Extended: true
+          Upgraded: false
+        '14':
+          Type: STRENGTH
+          Extended: false
+          Upgraded: true
+        '15':
+          Type: SLOWNESS
+          Extended: false
+          Upgraded: true
+        '16':
+          Type: SPEED
+          Extended: true
+          Upgraded: false
+        '17':
+          Type: TURTLE_MASTER
+          Extended: false
+          Upgraded: false
+        '18':
+          Type: TURTLE_MASTER
+          Extended: false
+          Upgraded: true
+      CaptureRate:
+        value: 100
       DoPauseAfterDay:
         value: false
-      GlobalChatPrefix:
-        value: '!'
-      NetherCap:
-        value: 3
-      ChargedCreepers:
-        value: 100040001
-      PvpCap:
-        value: 2
+      HealthBelowName:
+        value: false
+      EternalDay:
+        value: false
       DeepPause:
         value: true
-      ChestLimit:
-        value: 40
+      RespawnAtHome:
+        value: true
       TntCap:
         value: 3
-      DayDuration:
-        value: 24000
+      GlobalChatPrefix:
+        value: '!'
+      PvpCap:
+        value: 2
+      NetherCap:
+        value: 3
   TeamManager:
     Fox:
       Members: []
@@ -197,7 +197,41 @@ FkPI:
         ChestsRoom: {}
     nametag-integration:
       use-main-scoreboard: false
-  LockedChestsManager: {}
+  LockedChestsManager:
+    LockedChests:
+      85-104-60:
+        Loc:
+          World: world
+          x: 85
+          y: 104
+          z: 60
+        State: LOCKED
+        Time: 10
+        Day: 1
+        Name: coffre2
+        Advancement: minecraft:end/root
+      83-104-58:
+        Loc:
+          World: world
+          x: 83
+          y: 104
+          z: 58
+        State: LOCKED
+        Time: 10
+        Day: 1
+        Name: coffre1
+        Advancement: minecraft:nether/root
+      84-104-63:
+        Loc:
+          World: world
+          x: 84
+          y: 104
+          z: 63
+        State: LOCKED
+        Time: 10
+        Day: 1
+        Name: coffre3
+        Advancement: minecraft:adventure/sniper_duel
   ChestsRoomsManager:
     CaptureTime: 60
     Offset: 2
